@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F2F5;
+}
+.space-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+}
+.row{
+    display: flex;
+    gap: 5px;
+}
+
+.container{
+    position: absolute;
+    top: 3%;
+    left: 42%;
+    font-size: 28px;
+}
+
+.container h1{
+    color: #1877F2;
+}
+
+.info{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+.para{
+    color: gray;
+    font: normal;
+}
+
+header{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 18%;
+    left: 35%;background-color: white;
+}
+
+.link1{
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #119F16;
+}
+
+.link1 a{
+    color: white;
+    text-decoration: none;
+}
+.link2{
+    text-align: center;
+    color: #1877f2; 
+}
+
+.link2 a{
+    text-decoration: none;
+}
+.input-width{
+    width: 100%;
+}
+
+.row-width{
+    display: flex;
+    gap: 10px;
+}
+
+.box5, .box6{
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+}
+
